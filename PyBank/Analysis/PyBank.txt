@@ -1,0 +1,8 @@
+-196785
+Financial Analysis
+--------------------------
+Total Months: {rowCount}
+Total: ${netTotal}
+Average Change: ${averageChange}
+Greatest Increase in Profits:{bgstIncreaseMonth} (${bgstIncrease})
+Greatest Decrease in Profits: {bgstDecreaseMonth} (${bgstDecrease}
