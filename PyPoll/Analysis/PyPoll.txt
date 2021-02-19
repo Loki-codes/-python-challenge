@@ -1,0 +1,12 @@
+
+Election Results
+-----------------------------
+Total Votes: {vtrCount}
+-----------------------------
+{CandList[0]}: {kPercentage * 100}% ({kVote})
+{CandList[1]}: {cPercentage * 100}% ({cVote})
+{CandList[2]}: {lPercentage * 100}% ({lVote})
+{CandList[3]}: {oPercentage * 100}% ({oVote})
+-----------------------------
+Winner: {CandList[0]}
+-----------------------------
