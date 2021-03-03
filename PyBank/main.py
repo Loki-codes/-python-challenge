@@ -70,13 +70,22 @@ with open(profit_CVS) as cvs_file:
 
     #send info with same layout to external file
     sendOut = open('Analysis/PyBank.txt', 'w')
-    sendOut.write(str(totalChange));
-    sendOut.write("\n""Financial Analysis");
-    sendOut.write("\n""--------------------------");
-    sendOut.write(f"\n""Total Months: {rowCount}");
-    sendOut.write(f"\n""Total: ${netTotal}");
-    sendOut.write(f"\n""Average Change: ${averageChange}");
-    sendOut.write(f"\n""Greatest Increase in Profits:{bgstIncreaseMonth} (${bgstIncrease})");
-    sendOut.write(f"\n""Greatest Decrease in Profits: {bgstDecreaseMonth} (${bgstDecrease}");
+    sendOut.write(str(totalChange))
+    sendOut.write("\n""Financial Analysis")
+    sendOut.write("\n""--------------------------")
+    sendOut.write(f"\n""Total Months:")
+    sendOut.write(str(rowCount))
+    sendOut.write(str(netTotal))
+    sendOut.write(str(netTotal))
+    sendOut.write(f"\n""Average Change: $")
+    sendOut.write(str(averageChange))
+    sendOut.write(f"\n""Greatest Increase in Profits:")
+    sendOut.write(str(bgstIncreaseMonth))
+    sendOut.write(f"($")
+    sendOut.write(str(bgstIncrease))
+    sendOut.write(f"\n""Greatest Decrease in Profits:")
+    sendOut.write(str(bgstDecreaseMonth))
+    sendOut.write(f"($")
+    sendOut.write(str(bgstDecrease))
 
 

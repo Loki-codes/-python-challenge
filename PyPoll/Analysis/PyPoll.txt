@@ -1,12 +1,12 @@
 
 Election Results
 -----------------------------
-Total Votes: {vtrCount}
+Total Votes:3521000
 -----------------------------
-{CandList[0]}: {kPercentage * 100}% ({kVote})
-{CandList[1]}: {cPercentage * 100}% ({cVote})
-{CandList[2]}: {lPercentage * 100}% ({lVote})
-{CandList[3]}: {oPercentage * 100}% ({oVote})
+Khan: 63.0 2218231
+Correy: 20.0 704200
+Li: 14.000000000000002 492940
+O'Tooley: 3.0 105630
 -----------------------------
-Winner: {CandList[0]}
+Winner: Khan
 -----------------------------
