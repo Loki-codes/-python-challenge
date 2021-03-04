@@ -75,8 +75,6 @@ with open(profit_CVS) as cvs_file:
     sendOut.write("\n""--------------------------")
     sendOut.write(f"\n""Total Months:")
     sendOut.write(str(rowCount))
-    sendOut.write(str(netTotal))
-    sendOut.write(str(netTotal))
     sendOut.write(f"\n""Average Change: $")
     sendOut.write(str(averageChange))
     sendOut.write(f"\n""Greatest Increase in Profits:")
